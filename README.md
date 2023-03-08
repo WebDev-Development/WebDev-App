@@ -36,3 +36,9 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Propuesta de modo de trabajo
+
+Trabajar en la rama **development** continuamente como veniamos trabajando los main. La rama development está como la rama default.
+En distintos puntos del desarrollo, cuando creamos que está casi todo listo en un componente, hacemos merge del **development** al **main**.
+cada uno de eso cambio le vamos dando un versionado semántico. Mientras no tengamos un definitivo estos serian  v0.XX.XX, es decir,la version 1, será la de *deploy*.
