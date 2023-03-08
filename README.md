@@ -1,9 +1,10 @@
 ## Propuesta de modo de trabajo
 
 Trabajar en la rama **development** continuamente como veniamos trabajando los main. La rama development está como la rama default.
-En distintos puntos del desarrollo, cuando creamos que está casi todo listo en un componente, hacemos merge del **development** al **main**.
-cada uno de eso cambio le vamos dando un versionado semántico. Mientras no tengamos un definitivo estos serian  v0.XX.XX, es decir,la version 1, será la de *deploy*.
+En distintos puntos del desarrollo, cuando consideremos que está casi todo listo en un componente, hacemos merge del **development** al **main**.
+cada uno de esos cambios le vamos dando un versionado semántico. Mientras no tengamos un definitivo estos serian  v0.XX.XX, es decir,la version 1, será la de *deploy*.
 
+-----------------
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
