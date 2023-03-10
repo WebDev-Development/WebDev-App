@@ -4,6 +4,7 @@
 
 @layer base {
     html {
-        @apply bg-black text-white font-sans;
+        @apply bg-black text-white text-xl font-sans;
+        @apply p-4;
     }
 }
