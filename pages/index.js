@@ -1,11 +1,18 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
+// import Image from 'next/image'
+// import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
+import { useRouter } from 'next/router'
+import en from '../public/locale/en'
+import es from '../public/locale/es'
+import Link from 'next/link'
 
-const inter = Inter({ subsets: ['latin'] })
+// const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+	const router = useRouter();
+	const { locale } = router;
+	const t = locale === 'en' ? en : es;
   return (
     <>
       <Head>
@@ -15,12 +22,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1 className="text-3xl font-bold underline">
-          Hello world!
+				<Link href='/' locale='en'>
+					EN
+				</Link>
+				--
+				<Link href='/' locale='es'>
+					ES
+				</Link>
+        <h1 className="text-3xl font-bold underline hover:text-color">
+          {t.title}
         </h1>
-        <p className="text-3xl text-color md:font-serif hover:text-black ml-5 bg-black/5">
-          WebDev
-        </p>
+				
       </main>
     </>
   )
