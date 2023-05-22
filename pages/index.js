@@ -1,11 +1,14 @@
 import Head from 'next/head'
 // import Image from 'next/image'
 // import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
 import { useRouter } from 'next/router'
 import en from '../public/locale/en'
 import es from '../public/locale/es'
-import Link from 'next/link'
+import Nav from './components/Nav'
+import About from './components/About'
+import Services from './components/Services'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 // const inter = Inter({ subsets: ['latin'] })
 
@@ -13,6 +16,7 @@ export default function Home() {
 	const router = useRouter();
 	const { locale } = router;
 	const t = locale === 'en' ? en : es;
+
   return (
     <>
       <Head>
@@ -21,19 +25,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-				<Link href='/' locale='en'>
-					EN
-				</Link>
-				--
-				<Link href='/' locale='es'>
-					ES
-				</Link>
-        <h1 className="text-3xl font-bold underline hover:text-color">
-          {t.title}
-        </h1>
-				
-      </main>
-    </>
-  )
+      <Nav/>
+      <About/>
+      <Services/>
+      <Contact/>
+      <Footer/>
+    </> 
+  ) 
 }
