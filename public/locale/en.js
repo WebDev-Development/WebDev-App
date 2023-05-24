@@ -1,4 +1,5 @@
 export default {
+  services: "Services",
   webDevelopment: "Web development",
   webDevelopmentText1: "Web development",
   ideation: "Ideation",
@@ -8,6 +9,7 @@ export default {
   productDesign: "Product Design",
   productDesignText1: "Product Design",
 
+  about: "About us",
   values: "Our values",
   valuesText1: "Innovation",
   valuesText2: "We value innovation in every project we undertake, constantly seeking new ways to tackle challenges using the latest trends and technologies.",
@@ -41,4 +43,10 @@ export default {
   form4: "3rd question",
   form5: "Tell us about the project",
   getStarted: "Get started",
+
+  phone: "Número de teléfono",
+  mailing: "Dirección postal",
+  email: "Dirección de correo",
+
+  develop: "Desarrollado por WebDev"
 }

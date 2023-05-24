@@ -9,6 +9,8 @@ export default {
   productDesign: "Diseño de productos",
   productDesignText1: "Diseño de productos",
 
+
+  about: "Sobre nosotros",
   values: "Nuestros valores",
   valuesText1: "Innovación",
   valuesText2: "Valoramos la innovación en cada proyecto que aborda, buscando constantemente nuevas formas de abordar los desafíos valiéndonos de las últimas tendencias y tecnologías.",
@@ -42,4 +44,11 @@ export default {
   form4: "3ra preg",
   form5: "Cuentanos acerca del proyecto",
   getStarted: "Comenzar",
+
+
+  phone: "Phone Number",
+  mailing: "Mailing Address",
+  email: "Email Address",
+  
+  develop: "Develop by WebDev"
 }
