@@ -8,8 +8,16 @@ export default function Services() {
 	const t = locale === 'en' ? en : es;
 
   return (
-    <div className="flex flex-col text-left">
-      <span class="text-black">{t.services}</span>
+    <div id="section-services" className="flex flex-col text-left mt-20">
+      <h3 class="py-2 pl-3 pr-4 text-color">{t.services}</h3>
+      <p class="text-color">{t.webDevelopment}</p>
+      <p>{t.webDevelopmentText1}</p>
+      <p class="text-color">{t.ideation}</p>
+      <p>{t.ideationText1}</p>
+      <p class="text-color">{t.supportAndManagement}</p>
+      <p>{t.supportAndManagementText1}</p>
+      <p class="text-color">{t.productDesign}</p>
+      <p>{t.productDesignText1}</p>
     </div>
   ) 
 }
