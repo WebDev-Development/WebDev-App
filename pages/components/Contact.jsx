@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router'
 import en from '../../public/locale/en'
 import es from '../../public/locale/es'
+import ContactForm from './ContactForm';
 
 export default function Contact() {
 	const router = useRouter();
@@ -13,6 +14,7 @@ export default function Contact() {
       <p>{t.contactText1}</p>
       <p>{t.contactText2}</p>
       <p>{t.contactText3}</p>
+      <ContactForm/>
     </div>
   ) 
 }
