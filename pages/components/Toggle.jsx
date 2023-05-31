@@ -6,7 +6,7 @@ export default function Home() {
 	const { locale } = router;
 
   return (
-    <button className="border border-black w-10 h-10 mr-4 px-4 rounded-full flex items-center justify-center hover:bg-black hover:bg-opacity-10">
+    <button className="border border-white w-10 h-10 mr-4 px-4 rounded-full flex items-center justify-center hover:bg-black hover:bg-opacity-10">
       {locale === 'es' ? (
         <Link className="text-xs" href="/" locale='en'>
           EN
