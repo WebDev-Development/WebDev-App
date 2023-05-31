@@ -8,27 +8,41 @@ export default function About() {
 	const t = locale === 'en' ? en : es;
 
   return (
-    <div id="section-about" className="flex flex-col text-left">
+    <div id="section-about" className="flex flex-col text-left bg-black text-white">
+      <h3 className="py-2 pl-3 pr-4 text-color text-center text-xl">{t.values}</h3>
+      <div className="text-center flex justify-center pt-3 pb-4 xs:flex-col sm:flex-col md:flex-row">
+        <div className="flex flex-col items-center p-3 border border-color rounded-lg m-3 flex-1">
+          <img src="https://i.ibb.co/C8JQJWQ/innovation.png" className="w-20 h-28 pt-5 pb-5" alt={t.valuesText7} />
+          <p className="text-color p-2 text-lg underline">{t.valuesText1}</p>
+          <p className="text-sm p-2 xs:mx-8 sm:mx-4 md:mx-0">{t.valuesText2}</p>
+        </div>
+        <div className="flex flex-col items-center p-3 border border-color rounded-lg m-3 flex-1">
+          <img src="https://i.ibb.co/x7GR8th/quality.png" className="w-20 h-28 pt-5 pb-5" alt={t.valuesText7} />
+          <p className="text-color p-2 text-lg underline">{t.valuesText3}</p>
+          <p className="text-sm p-2 xs:mx-8 sm:mx-4 md:mx-0">{t.valuesText4}</p>
+        </div>
+        <div className="flex flex-col items-center p-3 border border-color rounded-lg m-3 flex-1">
+          <img src="https://i.ibb.co/DGS0tXS/trust.png" className="w-20 h-28 pt-5 pb-5" alt={t.valuesText7} />
+          <p className="text-color p-2 text-lg underline">{t.valuesText5}</p>
+          <p className="text-sm p-2 xs:mx-8 sm:mx-4 md:mx-0">{t.valuesText6}</p>
+        </div>
+        <div className="flex flex-col items-center p-3 border border-color rounded-lg m-3 flex-1">
+          <img src="https://i.ibb.co/5Y0hVnL/exclusivity.png" className="w-20 h-28 pt-5 pb-5" alt={t.valuesText7} />
+          <p className="text-color p-2 text-lg underline">{t.valuesText7}</p>
+          <p className="text-sm p-2 xs:mx-8 sm:mx-4 md:mx-0">{t.valuesText8}</p>
+        </div>
+      </div>
       
-      <h3 class="py-2 pl-3 pr-4 text-color">{t.values}</h3>
-      <p class="text-color">{t.valuesText1}</p>
-      <p>{t.valuesText2}</p>
-      <p class="text-color">{t.valuesText3}</p>
-      <p>{t.valuesText4}</p>
-      <p class="text-color">{t.valuesText5}</p>
-      <p>{t.valuesText6}</p>
-      <p class="text-color">{t.valuesText7}</p>
-      <p>{t.valuesText8}</p>
 
-      <h3 class="py-2 pl-3 pr-4 text-color">{t.story}</h3>
+      <h3 className="py-2 pl-3 pr-4 text-color">{t.story}</h3>
       <p>{t.storyText1}</p>
       <p>{t.storyText2}</p>
       <p>{t.storyText3}</p>
 
-      <h3 class="py-2 pl-3 pr-4 text-color">{t.team}</h3>
+      <h3 className="py-2 pl-3 pr-4 text-color">{t.team}</h3>
       <p>{t.teamText1}</p>
 
-      <h3 class="py-2 pl-3 pr-4 text-color">{t.howWeWork}</h3>
+      <h3 className="py-2 pl-3 pr-4 text-color">{t.howWeWork}</h3>
       <p>{t.howWeWorkText1}</p>
       <p>{t.howWeWorkText2}</p>
       <p>{t.howWeWorkText3}</p>
