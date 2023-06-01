@@ -9,7 +9,7 @@ export default function Footer() {
 
   return (
     <div className="bg-black text-white">
-      <div className="flex justify-center pt-3 pb-4 xs:flex-col sm:flex-col md:flex-row xs:gap-4 sm:gap-4 md:gap-16 lg:gap-32">
+      <div className="flex justify-center md:pt-4 xs:pt-8 xs:mx-8 pb-4 xs:flex-col sm:flex-col md:flex-row xs:gap-4 sm:gap-4 md:gap-16 lg:gap-32">
         <div className="flex flex-col text-left">
           <label className="text-xl underline">{t.phone}</label>
           <span>+54 (011) 5454-5454</span>
