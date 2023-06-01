@@ -23,18 +23,23 @@ export default {
   storyText1: "WebDev is a collective of developers from different countries who share a common vision for web development.",
   storyText2: "We believe in the importance of innovation and creativity in every project we undertake. We strive to provide a personalized and dedicated service, focused on customer satisfaction. For us, quality is paramount, and we always stay up-to-date with the latest technologies and market trends.",
   storyText3: "We have worked together on various projects and challenges until we finally decided to create WebDev. Since then, we have been dedicated to providing customized solutions in design and technology for individuals and businesses across different sectors.",
+  
   team: "Our team",
   teamText1: "Our team...",
+
   howWeWork: "How we work",
-  howWeWorkText1: "At WebDev, we adapt to the specific needs and requirements of each client, working collaboratively and flexibly to deliver effective solutions.",
-  howWeWorkText2: "We conduct a thorough assessment of each project and work closely with the client to establish clear goals and define the project scope.",
-  howWeWorkText3: "In addition, we provide regular updates and ensure that the client is satisfied with the final result.",
-  
+  howWeWorkText1: "At WebDev, we strive to exceed our clients' expectations by adapting collaboratively and flexibly to their specific needs and requirements.",
+  howWeWorkText2: "We start each collaboration with a comprehensive evaluation of your project, working closely with you to establish clear goals and define the scope of work understanding of your needs.",
+  howWeWorkText3: "Throughout the process, we will keep you informed and updated regularly because our commitment is to ensure that you are satisfied with the final result.",
   contact: "Contact",
   contactText: "Let's do Buisiness!",
-  
+  contactText1: "Don't miss the opportunity to work with our talented team. We are here to provide you with solutions tailored to your needs and help you achieve your business goals.",
+  contactText2: "Contact us now through our contact form and let's do business together!",
+
+  getStarted: "Get started",
+  form: "We look forward to your inquiry",
   form1: "Name",
-  form2: "Contact",
+  form2: "Email",
   form3: "Project Type",
   form3a: "Web Development",
   form3b: "Web/Mobile Development",
@@ -42,7 +47,7 @@ export default {
   form3d: "Product Design",
   form4: "3rd question",
   form5: "Tell us about the project",
-  getStarted: "Get started",
+  submit: "Submit",
 
   phone: "Número de teléfono",
   mailing: "Dirección postal",
