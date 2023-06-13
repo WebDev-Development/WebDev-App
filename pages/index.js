@@ -5,10 +5,8 @@ import { useRouter } from 'next/router'
 import en from '../public/locale/en'
 import es from '../public/locale/es'
 import Nav from './components/Nav'
-import About from './components/About'
-import Services from './components/Services'
-import Contact from './components/Contact'
 import Footer from './components/Footer'
+import HomePage from './components/HomePage'
 
 // const inter = Inter({ subsets: ['latin'] })
 
@@ -26,9 +24,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav/>
-      <Services/>
-      <About/>
-      <Contact/>
+      <HomePage />
       <Footer/>
     </> 
   ) 
