@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 
-export default function Home() {
+export default function Toggle() {
 	const router = useRouter();
 	const { locale } = router;
 
